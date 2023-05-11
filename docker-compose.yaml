@@ -2,11 +2,11 @@ version: "2"
 
 services:
   nexus:
-    image: klo2k/nexus3
+    image: printeastwoodcz/nexus3
     volumes:
       - "nexus-data:/nexus-data"
     ports:
-      - "9081:8081"
+      - "8081:8081"
 
 volumes:
   nexus-data: {}
